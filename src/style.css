@@ -1,9 +1,16 @@
 /* styles go here */
-.form_field:not(:last-child) {
+.form_field {
   display: block;
+}
+
+.form_field:not(:last-child) {
   margin-bottom: 10px;
 }
 
 .form_block {
   margin-bottom: 20px;
+}
+
+.form_field_cats {
+  display: inline-block;
 }

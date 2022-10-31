@@ -91,18 +91,20 @@
 
       <fieldset class="form_block">
         <legend>An interesting fact about you!</legend>
-        <label class="form_field">
           Do you love cats?
+        <label class="form_field form_field_cats">
           <input
             type="radio"
             name="loveCats"
-            value="y"
+            value="yes"
           >
           Yes
+        </label>
+        <label class="form_field form_field_cats">
           <input
             type="radio"
             name="loveCats"
-            value="n"
+            value="no"
           >
           No
         </label>
@@ -161,7 +163,7 @@
       </fieldset>
       <button type="submit">Submit</button>
     </form>
-    
+
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
